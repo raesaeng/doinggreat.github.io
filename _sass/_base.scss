@@ -53,11 +53,11 @@ strong {
 }
 
 a {
-  color: $text-color;
+  color: $muted-text-color;
 }
 
 a:focus {
-  outline: 1px dashed $text-color;
+  outline: 1px dashed $muted-text-color;
 }
 
 blockquote {
