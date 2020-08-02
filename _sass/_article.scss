@@ -1,6 +1,7 @@
 .post {
   background: white;
   color: $muted-text-color;
+  font-size: .75em;
   margin: 2em auto;
   max-width: 60rem;
   padding: 2em 0;
@@ -28,7 +29,7 @@
 }
 
 .post p:first-of-type,
-.post h3 + p {
+.post h2 + p {
   text-indent: 0;
 }
 
