@@ -1,7 +1,6 @@
 .post {
   background: white;
   color: $muted-text-color;
-  font-size: 1em;
   margin: 2em auto;
   max-width: 60rem;
   padding: 2em 0;
@@ -16,7 +15,7 @@
 }
 
 .post > h1 {
-  font-size: 2em;
+  font-size: 1em;
   max-width: 48rem;
   padding: 2em 1em;
   text-align: center;
