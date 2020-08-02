@@ -16,7 +16,7 @@
 
 remote_theme : patdryburgh/hitchens
 
-title: DOING GREAT
+title: doing great
 email: raesaeng@naver.com
 description: cloud newbie # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
