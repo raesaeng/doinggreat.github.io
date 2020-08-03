@@ -3,9 +3,9 @@
  */
 
 code.highlighter-rouge {
-  background: $muted_text_color;
+  background: $text_color;
   font-family: courier, monospace;
-  font-size: .875em;
+  font-size: .75em;
   white-space: pre;
   overflow-x: auto;
 }
@@ -13,8 +13,10 @@ code.highlighter-rouge {
 .highlight {
   background: #fff;
   font-family: courier, monospace;
-  font-size: .875em;
+  font-size: .75em;
   margin: 2rem auto;
+  white-space: pre;
+  overflow-x: auto;
 
   > * {
     padding: 0 1.5rem;
