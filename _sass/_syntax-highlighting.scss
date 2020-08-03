@@ -5,7 +5,7 @@
 code.highlighter-rouge {
   background: $text_color;
   font-family: courier, monospace;
-  font-size: .75em;
+  font-size: .875em;
   white-space: pre;
   overflow-x: auto;
 }
@@ -25,10 +25,6 @@ code.highlighter-rouge {
   .highlighter-rouge & {
     background: $highlight;
   }
-
-pre code{
-  white-space: pre;
-}
     
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
