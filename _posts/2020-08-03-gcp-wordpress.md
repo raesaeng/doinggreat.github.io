@@ -80,6 +80,7 @@ sql과 연결하기 위하여 mariadb 를 설치해 주어야 한다.
 
 'yum -y install mariadb mariadb-server'
 
+![Screenshot from 2020-08-03 14-33-39](https://user-images.githubusercontent.com/69098825/89162306-d99a1100-d5ae-11ea-8a52-7e7087751e81.png)
 
 또 selinux를 꺼줘야 접근이 가능하므로 selinux도 꺼준다.
 'setenforce 0'
