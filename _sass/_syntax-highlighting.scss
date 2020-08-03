@@ -8,6 +8,7 @@ code.highlighter-rouge {
   font-size: .875em;
   white-space: pre;
   overflow-x: auto;
+  margin: 2rem auto;
 }
 
 .highlight {
@@ -24,6 +25,7 @@ code.highlighter-rouge {
 
   .highlighter-rouge & {
     background: $text_color;
+    margin: 2rem auto;
   }
     
   .c     { color: #998; font-style: italic } // Comment
