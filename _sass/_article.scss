@@ -27,6 +27,15 @@
   text-justify: inter-word;
 }
 
+.post p:first-of-type,
+.post h2 + p {
+  text-indent: 0;
+}
+
+.post-content:first-child {
+  margin-top: 4em;
+}
+
 .post a:hover {
   background: $highlight;
 }
