@@ -5,13 +5,14 @@ author: "한결"
 categories: blog
 ---
 
+
 GCP로 wordpress 설치를 해볼 것이다.
 VM 인스턴스에 웹서버를 구축해준 뒤에 sql과 연동시켜 DB로 사용할 것이다.   
 
 Compute Engine 탭에서 VM 인스턴스를 하나 생성했다.   
 ssh 접속하여 필요한 패키지를 설치해준다.
 
-'yum -y install update'
+'''yum -y install update'''
 'yum -y install httpd'
 'yum install epel-release'
 'rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm'
