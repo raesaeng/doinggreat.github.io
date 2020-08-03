@@ -3,9 +3,10 @@
  */
 
 code.highlighter-rouge {
-  background: $highlight;
+  background: $text_color;
   font-family: courier, monospace;
   font-size: .875em;
+  white-space: pre;
 }
 
 .highlight {
