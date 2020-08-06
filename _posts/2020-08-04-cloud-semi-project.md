@@ -42,7 +42,7 @@ php -v
 >php-mysql : MySQL 데이터베이스 지원
 >php-pear : php 확장 라이브러리
 
-![89010160-03ea9500-d349-11ea-8ded-bd23b30204e3](/Users/gyeol/Desktop/89010160-03ea9500-d349-11ea-8ded-bd23b30204e3.png)
+
 
 ​	PHP가 잘 설치되었는지 php -v 명령어로 확인해준다.
 
@@ -59,7 +59,8 @@ php -v
    * 데이터 베이스 만들기
 
   워드프레스에서 사용할 데이터베이스를 만들어준다. db_0804로 만들어 주었다.
-
+    
+![89011199-ed453d80-d34a-11ea-922d-1b784b90e429](https://user-images.githubusercontent.com/69098825/89530845-289faa80-d82a-11ea-9a1b-db15646dcfd1.png)
 ![04_db](https://user-images.githubusercontent.com/69098825/89529000-f2acf700-d826-11ea-9aae-caf5f04c40d0.PNG)
 
 
@@ -73,6 +74,7 @@ php -v
    워드프레스 홈페이지에서 다운로드 받아 풀어준다. 권한 설정 후 지장한 경로에 위치하고 있는지 확인해준다.
 
    
+   ![89010532-bb7fa700-d349-11ea-8fbb-afd178b5fb57](https://user-images.githubusercontent.com/69098825/89530669-dced0100-d829-11ea-9bc5-c68d75bbf1cf.png)
 
    ```
    wget "http://wordpress.org/latest.tar.gz"
@@ -127,7 +129,7 @@ export SQL_CONNECTION=[SQL 인스턴스 연결 이름]
 
 ​	
 
-![89010831-4e204600-d34a-11ea-8569-da9da9c0a4b5](/Users/gyeol/Desktop/89010831-4e204600-d34a-11ea-8569-da9da9c0a4b5.png)
+![89010831-4e204600-d34a-11ea-8569-da9da9c0a4b5](https://user-images.githubusercontent.com/69098825/89530663-d9f21080-d829-11ea-8c66-2e6cf43ece39.png)
 
 ​	Ready for new connections 커넥션 준비가 완료되었다.
 
