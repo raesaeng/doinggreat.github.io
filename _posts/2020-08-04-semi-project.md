@@ -2,9 +2,8 @@
 
 wordpress 설치를 위해 apache와 php, mariadb 를 설치해준다. 
 
-![01_instance](/Users/gyeol/Downloads/세미프로젝트캡쳐/01_instance.PNG)
-
-![02_instance](/Users/gyeol/Downloads/세미프로젝트캡쳐/02_instance.PNG)
+![01_instance](https://user-images.githubusercontent.com/69098825/89528990-f04a9d00-d826-11ea-90ef-88ccc38ad8bc.PNG)
+![02_instance](https://user-images.githubusercontent.com/69098825/89528996-f2146080-d826-11ea-81d6-961bf37abc10.PNG)
 
 
 
@@ -47,7 +46,7 @@ php -v
 
 ### 2. SQL 인스턴스 생성하기
 
-![03_db](/Users/gyeol/Downloads/세미프로젝트캡쳐/03_db.PNG)
+![03_db](https://user-images.githubusercontent.com/69098825/89528997-f2acf700-d826-11ea-8a74-907af32a8d00.PNG)
 
 
 
@@ -55,7 +54,7 @@ php -v
 
   워드프레스에서 사용할 데이터베이스를 만들어준다. db_0804로 만들어 주었다.
 
-![04_db](/Users/gyeol/Downloads/세미프로젝트캡쳐/04_db.PNG)
+![04_db](https://user-images.githubusercontent.com/69098825/89529000-f2acf700-d826-11ea-9aae-caf5f04c40d0.PNG)
 
 
 
@@ -77,7 +76,7 @@ php -v
 
 
 
-![05_db](/Users/gyeol/Desktop/89010532-bb7fa700-d349-11ea-8fbb-afd178b5fb57.png)
+![05_db](https://user-images.githubusercontent.com/69098825/89529001-f3458d80-d826-11ea-977c-618bc83eb585.PNG)
 
 ```
 vim /etc/httpd/conf/httpd.conf
@@ -140,7 +139,7 @@ export SQL_CONNECTION=[SQL 인스턴스 연결 이름]
 
    
 
-![06_wp](/Users/gyeol/Downloads/세미프로젝트캡쳐/06_wp.PNG)
+![06_wp](https://user-images.githubusercontent.com/69098825/89529005-f3de2400-d826-11ea-9202-901d71ba561b.PNG)
 
 나머지 정보를 입력해주고 나면 워드프레스 사용이 가능하다.
 
@@ -150,19 +149,19 @@ export SQL_CONNECTION=[SQL 인스턴스 연결 이름]
 
    인스턴스 템플릿 생성을 위해 스냅샷 생성 후 이미지 생성하여 부팅 디스크를 만들어준다.
 
-![07_snap](/Users/gyeol/Downloads/세미프로젝트캡쳐/07_snap.PNG)
+![07_snap](https://user-images.githubusercontent.com/69098825/89529007-f3de2400-d826-11ea-80f5-f64926d5db2f.PNG)
 
    * VM 인스턴스 스냅샷 생성 후 스냅샷을 소스로 이미지 생성
 
-![08_image](/Users/gyeol/Downloads/세미프로젝트캡쳐/08_image.PNG)
+![08_image](https://user-images.githubusercontent.com/69098825/89529008-f476ba80-d826-11ea-957a-e60986e4fc98.PNG)
 
    * 이미지를 베이스로 부팅디스크를 생성
 
-![09_temp](/Users/gyeol/Downloads/세미프로젝트캡쳐/09_temp.PNG)
+![09_temp](https://user-images.githubusercontent.com/69098825/89529009-f50f5100-d826-11ea-8189-717e2aa7de39.PNG)
 
    * 인스턴스 템플릿 생성
 
-![10_temp](/Users/gyeol/Downloads/세미프로젝트캡쳐/10_temp.PNG)
+![10_temp](https://user-images.githubusercontent.com/69098825/89529011-f50f5100-d826-11ea-8f6c-b40dafd7a638.PNG)
 
 
 
@@ -178,9 +177,9 @@ export SQL_CONNECTION=[SQL 인스턴스 연결 이름]
 
    
 
-![11_temp](/Users/gyeol/Downloads/세미프로젝트캡쳐/11_temp.PNG)
+![11_temp](https://user-images.githubusercontent.com/69098825/89529182-40c1fa80-d827-11ea-9b9b-6d0a9baacfea.PNG)
 
-![12_group](/Users/gyeol/Downloads/세미프로젝트캡쳐/12_group.PNG)
+![12_group](https://user-images.githubusercontent.com/69098825/89529188-43245480-d827-11ea-85e7-a3d085c2e1fa.PNG)
 
 
 
@@ -192,7 +191,7 @@ export SQL_CONNECTION=[SQL 인스턴스 연결 이름]
 
    
 
-![13_staticip](/Users/gyeol/Downloads/세미프로젝트캡쳐/13_staticip.PNG)
+![13_staticip](https://user-images.githubusercontent.com/69098825/89529190-43bceb00-d827-11ea-840c-e1dcfb786a70.PNG)
 
 
 
@@ -206,7 +205,7 @@ export SQL_CONNECTION=[SQL 인스턴스 연결 이름]
 
   모든 그룹을 다 추가해주고 Cloud CDN 사용 설정을 체크해준다.
 
-![14_healthcheck](/Users/gyeol/Downloads/세미프로젝트캡쳐/14_healthcheck.PNG)
+![14_healthcheck](https://user-images.githubusercontent.com/69098825/89529192-44558180-d827-11ea-99c4-ef7c290525ee.PNG)
 
 
 
@@ -214,7 +213,7 @@ export SQL_CONNECTION=[SQL 인스턴스 연결 이름]
 
   ip 주소에 예약해두었던 ip 고정 주소를 넣어준다.
 
-![15_front](/Users/gyeol/Downloads/세미프로젝트캡쳐/15_front.PNG)
+![15_front](https://user-images.githubusercontent.com/69098825/89529193-44ee1800-d827-11ea-94d1-c5378e7f3317.PNG)
 
 ​	설정 검토 후 완료되었으면 부하분산기를 생성해준다.
 
@@ -236,7 +235,7 @@ ssh-keygen -t rsa
 
 
 
-![16_key](/Users/gyeol/Downloads/세미프로젝트캡쳐/16_key.PNG)
+![16_key](https://user-images.githubusercontent.com/69098825/89529194-4586ae80-d827-11ea-9574-66de2afba848.PNG)
 
 
 
@@ -257,7 +256,7 @@ ssh-keygen -t rsa
 
 
 
-![17_key](/Users/gyeol/Downloads/발표/17_ssh.PNG)
+![17_key](https://user-images.githubusercontent.com/69098825/89529197-4586ae80-d827-11ea-9d1b-65389e37b515.PNG)
 
 
 ​    
@@ -267,7 +266,7 @@ ssh-keygen -t rsa
 
 ​    
 
-![스크린샷 2020-08-04 오후 2.05.55](/Users/gyeol/Desktop/스크린샷 2020-08-04 오후 2.05.55.png)
+![17_ssh](https://user-images.githubusercontent.com/69098825/89529198-461f4500-d827-11ea-9760-47f4cf20327d.PNG)
 
 
 ​    
@@ -290,7 +289,7 @@ cat id_rsa.pub >> authrized_keys
 
 ​    
 
-![18_rsync](/Users/gyeol/Downloads/발표/18_rsync.PNG)
+![18_rsync](https://user-images.githubusercontent.com/69098825/89529199-46b7db80-d827-11ea-9a96-9d8d9dbf321a.PNG)
 
 
 
@@ -304,7 +303,7 @@ rsync -alvzrt --delete -e tmdgh0701@34.84.111.196:/var/www/html/wordpress/ /var/
 
 
 
-![19_crontab2](/Users/gyeol/Desktop/엽서/19_crontab2.jpg)
+![19_crontab](https://user-images.githubusercontent.com/69098825/89529201-46b7db80-d827-11ea-8b79-73461dbca20b.PNG)
 
 
 
@@ -320,19 +319,19 @@ rsync -alvzrt --delete -e tmdgh0701@34.84.111.196:/var/www/html/wordpress/ /var/
 
 
 
-![21_jmeter](/Users/gyeol/Downloads/21_jmeter.PNG)
+![21_jmeter](https://user-images.githubusercontent.com/69098825/89529390-9c8c8380-d827-11ea-93e5-1949d613b702.PNG)
 
 
 
 ​	로그 기록 탭에서 cloud HTTP 부하 분산기에서 확인하면 로그가 이렇게 보여진다. 
 
-![20_log](/Users/gyeol/Downloads/20_log.PNG)
+![20_log](https://user-images.githubusercontent.com/69098825/89529383-9a2a2980-d827-11ea-8743-15c51f734d7c.PNG)
 
 
 
 * Apache JMeter에서의 그래프
 
-![21_jmeter_graph](/Users/gyeol/Downloads/21_jmeter_graph.PNG)
+![21_jmeter_graph](https://user-images.githubusercontent.com/69098825/89529387-9bf3ed00-d827-11ea-9757-22fbf9e7b72a.PNG)
 
 
 
@@ -340,9 +339,9 @@ rsync -alvzrt --delete -e tmdgh0701@34.84.111.196:/var/www/html/wordpress/ /var/
 
   급격하게 치솟다가 떨어지는 그래프를 볼 수 있다. 
 
-![22_chart](/Users/gyeol/Downloads/22_chart.PNG)
+![22_chart](https://user-images.githubusercontent.com/69098825/89529392-9d251a00-d827-11ea-8d97-484c9f533930.PNG)
 
-![22_graph](/Users/gyeol/Downloads/22_graph.PNG)
+![22_graph](https://user-images.githubusercontent.com/69098825/89529393-9dbdb080-d827-11ea-81c4-059fedcc8f3b.PNG)
 
 
 
@@ -350,15 +349,16 @@ rsync -alvzrt --delete -e tmdgh0701@34.84.111.196:/var/www/html/wordpress/ /var/
 
   리전별로 각 1개였던 인스턴스 수량이 변경되고 있는 것을 확인할 수 있다. eu는 증가하여 2개의 인스턴스가 존재하고 us는 트래픽이 줄어들어 2개였던 인스턴스가 1개로 감소되고 있다.
 
-![instance](/Users/gyeol/Desktop/instance.png)
-
+ ![instance](https://user-images.githubusercontent.com/69098825/89529675-158bdb00-d828-11ea-8098-1c3985d6779f.png)
 
 
 * 로그 기록 탭에서 로그뷰어 GCE 자동 크기 조절기를 선택하면 로그를 볼 수 있다.
 
   인스턴스 그룹 istance-group-us 가 newSize: 2 oldSize: 1 인 것을 확인할 수 있다. 
 
-![image-20200804155309233](/Users/gyeol/Library/Application Support/typora-user-images/image-20200804155309233.png)
+![autoscaling_log](https://user-images.githubusercontent.com/69098825/89529598-f725df80-d827-11ea-8ae4-ce1581e79b36.PNG)
+
+
 
 
 
