@@ -1,3 +1,9 @@
+---
+layout: post
+title: "cloud semi project"
+author: "한결"
+categories: blog
+---
 ### 1. VM 인스턴스 생성
 
 wordpress 설치를 위해 apache와 php, mariadb 를 설치해준다. 
